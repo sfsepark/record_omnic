@@ -1,9 +1,13 @@
-¸®´ª½º¿¡¼­ start ½ÇÇà
-github °ø°³¹öÀüÀº statManager.pyÀÇ DBÁ¤º¸°¡ ´©¶ôµÇ¾î ÀÖ´Ù.
+ë¦¬ëˆ…ìŠ¤ì—ì„œ start ì‹¤í–‰
 
-python 3.x »ç¿ë
+github ê³µê°œë²„ì „ì€ statManager.pyì˜ DBì •ë³´ê°€ ëˆ„ë½ë˜ì–´ ìˆë‹¤.
 
-ÀÇÁ¸¼º
-opencv2 »ç¿ë(ffmpeg(¿µ»ó) »ç¿ëÀ» À§ÇØ Á÷Á¢ ÄÄÆÄÀÏÇØ¾ßÇÔ)
+python 3.x ì‚¬ìš©
+
+ì˜ì¡´ì„±
+
+opencv2 ì‚¬ìš©(ffmpeg(ì˜ìƒ) ì‚¬ìš©ì„ ìœ„í•´ ì§ì ‘ ì»´íŒŒì¼í•´ì•¼í•¨)
+
 Livestreamer
+
 pymysql

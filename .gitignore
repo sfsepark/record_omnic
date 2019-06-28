@@ -1,0 +1,9 @@
+﻿__pycache__/
+*.mp4
+*.pyc
+capture/*
+buffer/*
+nohups/*
+test_capture/*
+test_case/*
+test_video/*

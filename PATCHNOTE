@@ -1,0 +1,34 @@
+PUBG TNYA
+- PUBG grade live tracking system.
+
+LAST CHANGE : 2017-11-04
+VERSION 1.1.0
+
+--------------------------1.0.0----------------------------
+2017-10-20 )
+Version 0.8.0 :
+grade detectable from each stream(720p).
+- Use templete match.
+- Use canny edge detect for yellow number.
+- Use hsv changing for gray number.
+
+2017-10-22)
+Vesrion 0.9.0 (stable) :
+Grade verify algorithm (in elementManager(element.py))
+
+2017-10-24 )
+Version 1.0.0 (last stable) :
+Auto start if streamer plays PUBG.
+
+---------------------------1.1.0---------------------------
+Goal of Vesrion 1.1.0 :
+reduce CPU usage for gameover status searching.
+- gameover detectable from lowest resulotion stream(160p).
+---> using hsv masking
+- grade detectable from preview video of each live stream.
+- time sync : live stream and preview video.
+
+detectable from 1080p stream.
+
+2017-11-04)
+gameover detectable from lowest resulotion stream(160p)

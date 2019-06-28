@@ -27,15 +27,10 @@ while vidcap.isOpened():
     success, cap_image = vidcap.read()
     if success:
         if(count % 3 == 0) :
-            if(sharp_pt == -1 and count % 30 == 0) : 
-                pubg.image_process(cap_image)
-                sharp_pt = pubg.sharp_search(count)
-            if(sharp_pt != -1) :
-                pubg.image_process(cap_image)
-                cv2.imwrite('./capture/cap_f_' + str(count) + '.png' , cap_image)
-                sharp_pt = pubg.sharp_search(count)
-                if(sharp_pt != -1) :
-                    pubg.grade_search(sharp_pt,count)
+            pubg.image_process(cap_image)
+            pubg.end_detect(count)
+            #    if(sharp_pt != -1) :
+          #          pubg.grade_search(sharp_pt,count)
         count += 1
     else:
         break

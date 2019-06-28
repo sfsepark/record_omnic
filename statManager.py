@@ -4,10 +4,7 @@ from singleton import SingletonType
 
 class Funzdb:
     def __init__(self):
-
-        #github 오픈판에는 DB 이름이 공개되지 않습니다.
-
-        self.conn = pymysql.connect(host='DB 이름', user='유저', password='비밀번호', db='디비네임', charset='utf8', autocommit=True)
+        self.conn = pymysql.connect(host='호스트', user='유저', password='비밀번호', db='디비', charset='utf8', autocommit=True) #보안
         self.curs = self.conn.cursor()
     
     def add_score(self, rank, total=0, gametype=1):
@@ -45,6 +42,7 @@ class StatManager :
         f.write(get_log_text(grade_data) + '\n')
         f.close()
 
+
         gametype = 1
 
         if total != 0 :
@@ -52,9 +50,9 @@ class StatManager :
                 gametype = 1
             if total <= 12:
                 gametype = 1
-       #     elif total <= 30:
-       #         gametype = 3
-            elif total <= 53 :
+            #elif total <= 30:
+            #    gametype = 3
+            elif total <= 55 :
                 gametype = 2
             else :
                 gametype = 1

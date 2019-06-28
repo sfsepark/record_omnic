@@ -35,7 +35,7 @@ lower_bound[2] = upper_bound[2]
 
 print(hsv[0][len(hsv[0]) - 1])
 
-while lower_bound[2] > 30 :
+while lower_bound[2] > 0 :
 
     lower_bound[2] -= 2
 

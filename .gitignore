@@ -1,5 +1,7 @@
 ﻿__pycache__/
 *.mp4
+*.ts
+*.m3u8
 *.pyc
 capture/*
 buffer/*
